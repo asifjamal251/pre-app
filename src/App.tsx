@@ -1,11 +1,15 @@
 import './App.css'
+import LoginFormClass from './components/LoginFormClass'
+import { LoginFormFunction } from './components/LoginFormFunction'
 
 function App() {
 
   return (
     <>
-     <h1 className='mb-4'>Hello Word</h1>
-     <p>Asif Jamal</p>
+    <LoginFormFunction />
+
+    <LoginFormClass />
+     
     </>
   )
 }
